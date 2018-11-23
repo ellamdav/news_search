@@ -29,7 +29,7 @@ python news_search.py -o AND general population Alzheimer -d
 Absolutely no error-handling has been implemented for this toy solution - this would not be the case for production code! :-)
 
 ### Query normaliser
-Converts supplied query to normalised form, ie. <logical-operator>-<sorted-keywords>
+Converts supplied query to normalised form, ie. `<logical-operator>-<sorted-keywords>`
 
 ### Linear file-backed document store
 Initial implementation - a naive O(n) solution that simply iterates over the entire document store and matches against the query
